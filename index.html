@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Qr Code Genarator
+    </title>
+
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_downward" />
+</head>
+
+<body>
+    <!-- Add loader here -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <h1>Qr Code Genarator</h1>
+        <h2>in this web site tou can enter you'r URL or just a text and will get a qr code Genarated bsed on you'r input</h2>
+    </header>
+
+    <div class="container">
+        <form id="qr-form">
+            <input type="text" id="url-input" placeholder="Enter URL/Text" required>
+            <button type="submit">Generate QR Code</button>
+        </form>
+        <div id="qr-code"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
+    <script src="index.js"></script>
+
+    <footer class="footer">
+        <div class="align">
+            <i class="fa fa-github" style="font-size:48px;color:black"></i>
+            <a href="https://github.com/ghanbaridev" style="color: black; font-size: 30px;font-weight: bold; text-decoration: none;">ghanbaridev</a>
+        </div>
+    </footer>
+</body>
+
+</html>
