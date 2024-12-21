@@ -146,7 +146,7 @@
         border-top: 5px solid #3498db;
         border-radius: 50%;
         animation: spin 1s linear infinite;
-        animation-duration: 3s;
+        animation-duration: 2s;
     }
     
     @keyframes spin {
